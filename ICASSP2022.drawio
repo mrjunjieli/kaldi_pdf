@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-17T01:39:51.647Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="EHx1X9q576MN9LrEDKLT" version="15.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-17T02:59:30.578Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="jO4eC2Ts1qtiVOD0PjlA" version="15.2.7" type="github">
   <diagram id="y_EGhvHL0gBH4iH_qR2R" name="Page-1">
-    <mxGraphModel dx="1504" dy="381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="1158" dy="186" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -298,6 +298,15 @@
         </mxCell>
         <mxCell id="jQqSKPtN9QmAcMSNDdtG-17" value="$$c_e$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="606" y="315.5" width="20" height="11" as="geometry" />
+        </mxCell>
+        <mxCell id="jQqSKPtN9QmAcMSNDdtG-20" value="$$s_t^{av}$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="709" y="387.5" width="20" height="11" as="geometry" />
+        </mxCell>
+        <mxCell id="jQqSKPtN9QmAcMSNDdtG-25" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;strokeWidth=0.5;fillColor=#000000;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="772" y="348" width="16" height="11" as="geometry" />
+        </mxCell>
+        <mxCell id="jQqSKPtN9QmAcMSNDdtG-26" value="&lt;p&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 6px&quot;&gt;Weight Sharing&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="729" y="372" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
