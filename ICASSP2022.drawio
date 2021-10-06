@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-05T06:22:54.234Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="Bma_6iMhDlxUF1UraHhw" version="15.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-06T02:48:57.246Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="ppbSv2olZ7hNm6gT3u-X" version="15.4.1" type="github">
   <diagram id="y_EGhvHL0gBH4iH_qR2R" name="Page-1">
     <mxGraphModel dx="2489" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -169,7 +169,7 @@
             <mxPoint x="455" y="123" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VpKqUX4VM9mPJ3Cbt_9l-65" value="Intermediate target speech" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" parent="1" vertex="1">
+        <mxCell id="VpKqUX4VM9mPJ3Cbt_9l-65" value="Pre-extract target speech" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="410" y="100" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="VpKqUX4VM9mPJ3Cbt_9l-66" value="$$s_t^{av}$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" parent="1" vertex="1">
