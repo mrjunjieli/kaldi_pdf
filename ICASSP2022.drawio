@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-06T02:50:06.873Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="H4K12rzpxodBvkxu4h6x" version="15.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-06T08:03:19.056Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="CefGIJChFYtbgj6zkjXk" version="15.4.3" type="github">
   <diagram id="y_EGhvHL0gBH4iH_qR2R" name="Page-1">
     <mxGraphModel dx="2489" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -169,14 +169,14 @@
             <mxPoint x="455" y="123" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VpKqUX4VM9mPJ3Cbt_9l-65" value="Pre-extract target speech" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" parent="1" vertex="1">
+        <mxCell id="VpKqUX4VM9mPJ3Cbt_9l-65" value="Pre-extracted target speech" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="410" y="100" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="VpKqUX4VM9mPJ3Cbt_9l-66" value="$$s_t^{av}$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="434" y="133" width="20" height="11" as="geometry" />
         </mxCell>
-        <mxCell id="VpKqUX4VM9mPJ3Cbt_9l-68" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;(b) Audio-visual extraction&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="329" y="440" width="170" height="20" as="geometry" />
+        <mxCell id="VpKqUX4VM9mPJ3Cbt_9l-68" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;(b) Audio-visual extraction module&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="303" y="440" width="221" height="20" as="geometry" />
         </mxCell>
         <mxCell id="VpKqUX4VM9mPJ3Cbt_9l-70" value="&lt;font face=&quot;Times New Roman&quot;&gt;Audio encoder&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=#b85450;strokeWidth=1;fillColor=#f8cecc;" parent="1" vertex="1">
           <mxGeometry x="790" y="332" width="80" height="40" as="geometry" />
@@ -245,8 +245,8 @@
         <mxCell id="VpKqUX4VM9mPJ3Cbt_9l-89" value="$$s_t^{ac}$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="709" y="133" width="20" height="11" as="geometry" />
         </mxCell>
-        <mxCell id="VpKqUX4VM9mPJ3Cbt_9l-90" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;(c) Audio-contextual extraction&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="625" y="440" width="210" height="20" as="geometry" />
+        <mxCell id="VpKqUX4VM9mPJ3Cbt_9l-90" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;(c) Audio-contextual extraction module&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="612.5" y="440" width="235" height="20" as="geometry" />
         </mxCell>
         <mxCell id="VpKqUX4VM9mPJ3Cbt_9l-91" value="&lt;font face=&quot;Times New Roman&quot;&gt;Context encoder&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=#6c8ebf;strokeWidth=1;fillColor=#dae8fc;" parent="1" vertex="1">
           <mxGeometry x="580" y="331" width="90" height="40" as="geometry" />
@@ -293,7 +293,7 @@
         <mxCell id="jQqSKPtN9QmAcMSNDdtG-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=classicThin;endFill=1;endSize=6;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="jQqSKPtN9QmAcMSNDdtG-14" target="jQqSKPtN9QmAcMSNDdtG-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jQqSKPtN9QmAcMSNDdtG-14" value="&lt;font face=&quot;Times New Roman&quot;&gt;Pre-extract target speech&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" parent="1" vertex="1">
+        <mxCell id="jQqSKPtN9QmAcMSNDdtG-14" value="&lt;font face=&quot;Times New Roman&quot;&gt;Pre-extracted target speech&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="690" y="403" width="80" height="17" as="geometry" />
         </mxCell>
         <mxCell id="jQqSKPtN9QmAcMSNDdtG-17" value="$$c_e$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" parent="1" vertex="1">
