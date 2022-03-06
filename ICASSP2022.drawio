@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2022-03-06T11:57:54.310Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="uv4CfHF_taWJihpIyorl" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-06T12:43:20.793Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="uvxPjYtDMBRsuBBIr3QI" version="16.6.4" type="github">
   <diagram id="y_EGhvHL0gBH4iH_qR2R" name="Page-1">
-    <mxGraphModel dx="2000" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="2235" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="1M1DjJJRNKHooQjCBBIf-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;opacity=90;" vertex="1" parent="1">
+        <mxCell id="1M1DjJJRNKHooQjCBBIf-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;opacity=90;" parent="1" vertex="1">
           <mxGeometry x="568.5" y="150" width="315" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="1M1DjJJRNKHooQjCBBIf-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;opacity=90;" vertex="1" parent="1">
+        <mxCell id="1M1DjJJRNKHooQjCBBIf-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;opacity=90;" parent="1" vertex="1">
           <mxGeometry x="331" y="148" width="210" height="230" as="geometry" />
         </mxCell>
         <mxCell id="VpKqUX4VM9mPJ3Cbt_9l-1" value="&lt;font face=&quot;Times New Roman&quot;&gt;Audio-visual extraction&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#9AD479;shadow=0;strokeWidth=1;" parent="1" vertex="1">
@@ -182,7 +182,7 @@
           <mxGeometry x="464" y="133" width="20" height="11" as="geometry" />
         </mxCell>
         <mxCell id="VpKqUX4VM9mPJ3Cbt_9l-68" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;(b) Audio-visual extraction module&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="333" y="440" width="221" height="20" as="geometry" />
+          <mxGeometry x="322" y="440" width="221" height="20" as="geometry" />
         </mxCell>
         <mxCell id="VpKqUX4VM9mPJ3Cbt_9l-70" value="&lt;font face=&quot;Times New Roman&quot;&gt;Audio encoder&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;strokeWidth=1;fillColor=#f8cecc;" parent="1" vertex="1">
           <mxGeometry x="790" y="332" width="80" height="40" as="geometry" />
@@ -317,10 +317,10 @@
         <mxCell id="jQqSKPtN9QmAcMSNDdtG-30" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;Weight sharing&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=5;" parent="1" vertex="1">
           <mxGeometry x="818" y="106" width="92" height="14.5" as="geometry" />
         </mxCell>
-        <mxCell id="1M1DjJJRNKHooQjCBBIf-3" value="&lt;font face=&quot;Times New Roman&quot;&gt;Audio-visual extraction&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;opacity=90;" vertex="1" parent="1">
+        <mxCell id="1M1DjJJRNKHooQjCBBIf-3" value="&lt;font face=&quot;Times New Roman&quot;&gt;Audio-visual extraction&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;opacity=90;" parent="1" vertex="1">
           <mxGeometry x="338" y="158" width="76" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1M1DjJJRNKHooQjCBBIf-4" value="&lt;font face=&quot;Times New Roman&quot;&gt;Audio-contextual extraction&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;opacity=90;" vertex="1" parent="1">
+        <mxCell id="1M1DjJJRNKHooQjCBBIf-4" value="&lt;font face=&quot;Times New Roman&quot;&gt;Audio-contextual extraction&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;opacity=90;" parent="1" vertex="1">
           <mxGeometry x="580" y="158" width="93" height="30" as="geometry" />
         </mxCell>
       </root>
