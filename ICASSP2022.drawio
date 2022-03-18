@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-07T00:28:19.591Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="-y6e-5ata8d7DuHTpBh9" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-18T06:21:40.219Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="n8Lyz5chhGP53-D2ZkoN" version="17.0.0" type="github">
   <diagram id="y_EGhvHL0gBH4iH_qR2R" name="Page-1">
-    <mxGraphModel dx="2235" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="1390" dy="314" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -322,6 +322,9 @@
         </mxCell>
         <mxCell id="1M1DjJJRNKHooQjCBBIf-4" value="&lt;font face=&quot;Times New Roman&quot;&gt;Audio-contextual extraction&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;opacity=90;" parent="1" vertex="1">
           <mxGeometry x="580" y="158" width="93" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tKqjD_8-ma2AVvH912aS-1" value="&lt;font face=&quot;Times New Roman&quot;&gt;$$s_e^{av}$$&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="709" y="315.5" width="20" height="11" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
