@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-19T07:30:22.102Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="eyMGkqWILjs6g5Teda1c" version="17.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-09T10:58:17.557Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="MCsQc_8ol1x6rr_y_T-p" version="20.2.3" type="github">
   <diagram id="y_EGhvHL0gBH4iH_qR2R" name="Page-1">
-    <mxGraphModel dx="1798" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="2010" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -323,8 +323,330 @@
         <mxCell id="1M1DjJJRNKHooQjCBBIf-4" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;Audio-contextual extraction&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;opacity=90;" parent="1" vertex="1">
           <mxGeometry x="570" y="158" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tKqjD_8-ma2AVvH912aS-1" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;$$s_e^{av}$$&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+        <mxCell id="tKqjD_8-ma2AVvH912aS-1" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;$$s_e^{av}$$&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="709" y="315.5" width="20" height="11" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;opacity=50;" vertex="1" parent="1">
+          <mxGeometry x="578.5" y="635" width="315" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;opacity=50;" vertex="1" parent="1">
+          <mxGeometry x="341" y="633" width="210" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-3" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;语音-视觉提取模块&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#9AD479;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="804" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-4" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;语音-语义提取模块&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="695" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classicThin;endFill=1;" edge="1" parent="1" source="HMQLBAIyF5FseaXhO-4b-6" target="HMQLBAIyF5FseaXhO-4b-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-6" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;端到端语音识别系统&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="695" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classicThin;endFill=1;" edge="1" parent="1" source="HMQLBAIyF5FseaXhO-4b-8" target="HMQLBAIyF5FseaXhO-4b-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-8" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;嘴唇图片序列&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="87" y="879" width="105" height="36.5" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classicThin;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HMQLBAIyF5FseaXhO-4b-10" target="HMQLBAIyF5FseaXhO-4b-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-10" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;混合语音&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="809" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-11" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classicThin;html=1;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="HMQLBAIyF5FseaXhO-4b-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="824" as="sourcePoint" />
+            <mxPoint x="90" y="734" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="70" y="715" />
+              <mxPoint x="90" y="734" />
+              <mxPoint x="100" y="784" />
+              <mxPoint x="188" y="864" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-12" value="" style="endArrow=classicThin;html=1;endFill=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="HMQLBAIyF5FseaXhO-4b-4" target="HMQLBAIyF5FseaXhO-4b-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="845" as="sourcePoint" />
+            <mxPoint x="430" y="845" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-13" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;目标语音&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="102" y="635" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-14" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classicThin;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endFill=1;" edge="1" parent="1" source="HMQLBAIyF5FseaXhO-4b-3" target="HMQLBAIyF5FseaXhO-4b-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="800" as="sourcePoint" />
+            <mxPoint x="270" y="750" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="765" />
+              <mxPoint x="210" y="775" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-15" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;$$v_t$$&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="118" y="855" width="20" height="11" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-16" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;$$x_t$$&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="43" y="809" width="20" height="11" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-17" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;$$s_t^{av}$$&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="118" y="787.5" width="20" height="11" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-18" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;$$s_t^{ac}$$&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="145" y="679" width="20" height="11" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-19" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;$$c_t$$&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="207" y="699" width="20" height="11" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-20" value="" style="endArrow=classicThin;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endFill=1;strokeWidth=1;strokeColor=#000000;fillColor=#f8cecc;" edge="1" parent="1" source="HMQLBAIyF5FseaXhO-4b-3" target="HMQLBAIyF5FseaXhO-4b-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="855" as="sourcePoint" />
+            <mxPoint x="310" y="805" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-21" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;视觉编码器&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;strokeWidth=1;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="355" y="817" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classicThin;endFill=1;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="HMQLBAIyF5FseaXhO-4b-23" target="HMQLBAIyF5FseaXhO-4b-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-23" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;语音编码器&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;strokeWidth=1;fillColor=#ffcccc;" vertex="1" parent="1">
+          <mxGeometry x="455" y="817" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classicThin;endFill=1;strokeColor=#000000;strokeWidth=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="HMQLBAIyF5FseaXhO-4b-25" target="HMQLBAIyF5FseaXhO-4b-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="495" y="718" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-25" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;目标说话人提取网络&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;strokeWidth=1;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="455" y="738" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-26" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classicThin;html=1;strokeColor=#000000;strokeWidth=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endFill=1;" edge="1" parent="1" source="HMQLBAIyF5FseaXhO-4b-21" target="HMQLBAIyF5FseaXhO-4b-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="275" y="858" as="sourcePoint" />
+            <mxPoint x="325" y="808" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="395" y="758" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-27" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;语音解码器&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;strokeWidth=1;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="455" y="638" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classicThin;endFill=1;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="HMQLBAIyF5FseaXhO-4b-29" target="HMQLBAIyF5FseaXhO-4b-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="495" y="692" />
+              <mxPoint x="495" y="692" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-29" value="$$\odot$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="703" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-30" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classicThin;html=1;strokeColor=#000000;strokeWidth=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endFill=1;" edge="1" parent="1" target="HMQLBAIyF5FseaXhO-4b-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="495" y="798" as="sourcePoint" />
+            <mxPoint x="585" y="712" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="545" y="788" />
+              <mxPoint x="575" y="738" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classicThin;endFill=1;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="HMQLBAIyF5FseaXhO-4b-32" target="HMQLBAIyF5FseaXhO-4b-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-32" value="&lt;span style=&quot;font-family: &amp;quot;times new roman&amp;quot; ; font-size: 14px&quot;&gt;嘴唇图片序列&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="341" y="885.5" width="110" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-33" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;混合语音&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="447" y="888" width="95" height="11" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-34" value="" style="endArrow=classicThin;html=1;strokeColor=#000000;strokeWidth=1;endFill=1;" edge="1" parent="1" target="HMQLBAIyF5FseaXhO-4b-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="495" y="888" as="sourcePoint" />
+            <mxPoint x="465" y="918" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-35" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;$$v_t$$&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="375" y="872" width="20" height="11" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-36" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;$$x_t$$&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="474" y="873" width="20" height="11" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-37" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;$$v_e$$&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="375" y="800.5" width="20" height="11" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-38" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;$$x_e$$&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="474" y="800.5" width="20" height="11" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-39" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;$$m_t$$&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="474" y="723" width="20" height="11" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-40" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;$$w_t$$&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="474" y="681" width="20" height="11" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-41" value="" style="endArrow=classicThin;html=1;endFill=1;" edge="1" parent="1" source="HMQLBAIyF5FseaXhO-4b-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="55" y="718" as="sourcePoint" />
+            <mxPoint x="495" y="608" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-42" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;预提取的语音&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="585" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-43" value="&lt;font face=&quot;Times New Roman&quot;&gt;$$s_t^{av}$$&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="474" y="618" width="20" height="11" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-44" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;(b) 语音-视觉提取模块&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="332" y="925" width="221" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-45" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;语音编码器&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;strokeWidth=1;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="800" y="817" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classicThin;endFill=1;strokeColor=#000000;strokeWidth=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="HMQLBAIyF5FseaXhO-4b-47" target="HMQLBAIyF5FseaXhO-4b-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="718" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-47" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 14px;&quot;&gt;目标说话人提取网络&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;strokeWidth=1;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="700" y="738" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-48" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;语音解码器&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;strokeWidth=1;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="700" y="638" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classicThin;endFill=1;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="HMQLBAIyF5FseaXhO-4b-50" target="HMQLBAIyF5FseaXhO-4b-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="692" />
+              <mxPoint x="740" y="692" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-50" value="$$\odot$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="735" y="703" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classicThin;endFill=1;strokeColor=#000000;strokeWidth=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="HMQLBAIyF5FseaXhO-4b-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="645" y="888" as="sourcePoint" />
+            <mxPoint x="635" y="857" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-52" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;混合语音&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="795" y="888" width="90" height="11" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-53" value="" style="endArrow=classicThin;html=1;strokeColor=#000000;strokeWidth=1;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="HMQLBAIyF5FseaXhO-4b-52" target="HMQLBAIyF5FseaXhO-4b-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="888" as="sourcePoint" />
+            <mxPoint x="710" y="918" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-54" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;$$c_t$$&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="616" y="872.5" width="20" height="11" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-55" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;$$x_t$$&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="817" y="874.5" width="20" height="11" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-56" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;$$x_e$$&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="820" y="800.5" width="20" height="11" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-57" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;$$m_t$$&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="719" y="723" width="20" height="11" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-58" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;$$w_t$$&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="719" y="681" width="20" height="11" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-59" value="" style="endArrow=classicThin;html=1;endFill=1;" edge="1" parent="1" source="HMQLBAIyF5FseaXhO-4b-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="718" as="sourcePoint" />
+            <mxPoint x="740" y="608" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-60" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;目标语音&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="695" y="585" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-61" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;$$s_t^{ac}$$&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="719" y="618" width="20" height="11" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-62" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;(c) 语音-语义提取模块&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="622.5" y="925" width="235" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-63" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;文本编码器&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;strokeWidth=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="590" y="816" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-64" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;因素特征&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="886" width="90" height="11" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-65" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classicThin;html=1;strokeColor=#000000;strokeWidth=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="HMQLBAIyF5FseaXhO-4b-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="635" y="816" as="sourcePoint" />
+            <mxPoint x="695" y="757" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="635" y="758" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-66" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;(a) VCSE模型&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="85" y="920" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-67" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;语音编码器&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;strokeWidth=1;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="700" y="817" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-68" value="" style="endArrow=classicThin;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;endFill=1;" edge="1" parent="1" source="HMQLBAIyF5FseaXhO-4b-45" target="HMQLBAIyF5FseaXhO-4b-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="950" y="783" as="sourcePoint" />
+            <mxPoint x="1000" y="733" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-69" value="" style="endArrow=classicThin;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;endFill=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endSize=6;" edge="1" parent="1" source="HMQLBAIyF5FseaXhO-4b-45" target="HMQLBAIyF5FseaXhO-4b-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="917" y="690" as="sourcePoint" />
+            <mxPoint x="740" y="705" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="840" y="708" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-70" value="" style="endArrow=classicThin;html=1;endSize=6;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#000000;endFill=1;" edge="1" parent="1" source="HMQLBAIyF5FseaXhO-4b-67" target="HMQLBAIyF5FseaXhO-4b-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="845" as="sourcePoint" />
+            <mxPoint x="740" y="785" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classicThin;endFill=1;endSize=6;fillColor=#f8cecc;strokeColor=#000000;" edge="1" parent="1" source="HMQLBAIyF5FseaXhO-4b-72" target="HMQLBAIyF5FseaXhO-4b-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-72" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;预提取的语音&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="705" y="883" width="70" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-73" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;$$c_e$$&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="616" y="800.5" width="20" height="11" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-74" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;$$s_t^{av}$$&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="719" y="872.5" width="20" height="11" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-75" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;strokeWidth=0.5;fillColor=#000000;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="782" y="833" width="16" height="11" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-76" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;strokeWidth=0.5;fillColor=#000000;strokeColor=#000000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="824" y="594" width="16" height="11" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-77" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;权重共享&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=5;" vertex="1" parent="1">
+          <mxGeometry x="828" y="591" width="92" height="14.5" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-78" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;语音-视觉提取模块&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="348" y="643" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-79" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;语音-语义提取模块&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="590" y="643" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HMQLBAIyF5FseaXhO-4b-80" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;$$s_e^{av}$$&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="719" y="800.5" width="20" height="11" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
